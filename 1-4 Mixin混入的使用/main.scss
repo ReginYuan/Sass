@@ -1,0 +1,9 @@
+// mixin 混入
+@import 'mixin.scss';
+.text {
+    @include singleline-ellipsis(600px); //引入mixin样式
+}
+
+.content-text {
+    @include singleline-ellipsis(1000px); //引入mixin样式
+}

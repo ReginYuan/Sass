@@ -1,0 +1,7 @@
+// 制定公共组件样式并传入数据
+@mixin singleline-ellipsis($width) {
+    width: $width;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
