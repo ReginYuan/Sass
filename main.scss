@@ -1,0 +1,24 @@
+// 嵌套语法
+div {
+    span {
+        color: red;
+        a {
+            color: blue;
+        }
+    }
+}
+
+// 代码引入变量
+@import 'virables.scss';
+@import 'header.scss';
+@import 'content.scss';
+.header {
+    color: $color;
+    background-color: $background-color;
+    font-size: $small-size;
+}
+
+.content {
+    color: $content-color;
+    font-size: $max-size;
+}
