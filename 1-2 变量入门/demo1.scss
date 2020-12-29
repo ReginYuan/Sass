@@ -1,0 +1,18 @@
+// css变量要放在执行之前
+$small-size:14px+3px;
+$text-color:#555;
+$default-font:'microsoft yahei';
+.title {
+    // lighten('颜色','百分比') 设置颜色透明
+    color: lighten($text-color, 20%);
+}
+
+.subtitle {
+    // darken('颜色','百分比') 设置颜色加深
+    color: darken($text-color, '20%');
+}
+
+.text {
+    color: $text-color;
+    font-size: $small-size;
+}
